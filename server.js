@@ -10,8 +10,11 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(morgan("dev"));
+
+// Routes
 app.use("/", roomRoutes);
 
+// Start Server
 app.listen(process.env.BE_PORT, () => {
   console.log(`Server listening on port ${process.env.BE_PORT}`);
 });
