@@ -1,0 +1,22 @@
+{
+  "name": "be",
+  "version": "1.0.0",
+  "description": "Monitoring Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "keywords": [],
+  "author": "somebodyx",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "ndb": "^1.1.5"
+  }
+}
