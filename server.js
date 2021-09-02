@@ -17,5 +17,4 @@ app.use("/", roomRoutes);
 // Start Server
 app.listen(process.env.BE_PORT, () => {
   console.log(`Server listening on port ${process.argv[2]}`);
-  console.log(process.argv)
 });
